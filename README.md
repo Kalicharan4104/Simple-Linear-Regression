@@ -1,7 +1,6 @@
 # Simple-Linear-Regression
 ---
 
-```markdown
 # 💼 Salary Prediction Based on Experience
 
 A beginner-friendly Machine Learning project using **Simple Linear Regression** to predict salaries based on years of experience. This project is ideal for students and newcomers to ML who want to understand regression, visualization, and model evaluation in Python using `Scikit-Learn`.
@@ -113,13 +112,16 @@ Input a custom experience (e.g., 5 years) and predict salary.
 
 The Linear Regression model learns the equation:
 
-\[
-\text{Salary} = \beta_0 + \beta_1 \cdot \text{YearsExperience}
-\]
+
+$\text{Salary} = \beta_0 + \beta_1 \cdot \text{YearsExperience}$
+
 
 Where:
-- \( \beta_0 \): Intercept
-- \( \beta_1 \): Coefficient (slope of the line)
+
+- $\beta_0$: Intercept (the base salary when YearsExperience is 0)
+
+- $\beta_1$: Coefficient (the slope — how much salary increases with each additional year of experience)
+
 
 ---
 
@@ -193,9 +195,5 @@ This project is open to everyone, allowing access and usage for learning purpose
 ---
 
 ⭐ If you found this helpful, consider starring the repo on GitHub!
-```
-
----
-
 
 Happy coding! 🚀
